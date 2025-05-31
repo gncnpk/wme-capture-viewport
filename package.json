@@ -1,0 +1,24 @@
+{
+  "name": "wme-capture-viewport",
+  "version": "0.0.3",
+  "description": "Captures the viewport in WME and copies it to the clipboard.",
+  "main": "wme-capture-viewport.user.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gncnpk/wme-capture-viewport.git"
+  },
+  "author": "gncnpk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gncnpk/wme-capture-viewport/issues"
+  },
+  "homepage": "https://github.com/gncnpk/wme-capture-viewport#readme",
+  "devDependencies": {
+    "@typescript/lib-dom": "npm:@types/web@^0.0.236",
+    "typescript": "^5.8.3",
+    "wme-sdk-typings": "https://web-assets.waze.com/wme_sdk_docs/production/latest/wme-sdk-typings.tgz"
+  }
+}
