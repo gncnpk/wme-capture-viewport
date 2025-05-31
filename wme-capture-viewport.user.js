@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WME Capture Viewport
 // @namespace    https://github.com/gncnpk/wme-capture-viewport
-// @version      0.1
+// @version      0.2
 // @description  Captures the viewport in WME and appends it to the page.
 // @author       Gavin Canon-Phratsachack (https://github.com/gncnpk)
 // @match               https://beta.waze.com/*editor*
@@ -14,7 +14,6 @@
 
 (function() {
     'use strict';
-    // the sdk init function will be available after the SDK is initialized
     window.SDK_INITIALIZED.then(initScript);
     let viewPortElement;
     function initScript() {
